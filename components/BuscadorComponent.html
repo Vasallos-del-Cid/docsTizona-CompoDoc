@@ -1,0 +1,2123 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>front-tizona documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">front-tizona documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  BuscadorComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/fichas/buscador/buscador.component.ts</code>
+</p>
+
+
+    <p class="comment">
+        <h3>Description</h3>
+    </p>
+    <p class="comment">
+        <p>componente que construye el objeto con los parametros de busqueda a partir de los inputs introducidos por el usuario</p>
+<p>Estos parametros se pasan al listado de fihcas para que presente solo las coincidencias obtenidas del Back</p>
+
+    </p>
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-buscador</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./buscador.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./buscador.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#alturaMax" >alturaMax</a>
+                            </li>
+                            <li>
+                                <a href="#alturaMin" >alturaMin</a>
+                            </li>
+                            <li>
+                                <a href="#colorBandaMotor" >colorBandaMotor</a>
+                            </li>
+                            <li>
+                                <a href="#colores" >colores</a>
+                            </li>
+                            <li>
+                                <a href="#diametroCalibreMax" >diametroCalibreMax</a>
+                            </li>
+                            <li>
+                                <a href="#diametroCalibreMin" >diametroCalibreMin</a>
+                            </li>
+                            <li>
+                                <a href="#distanciaAnillasMax" >distanciaAnillasMax</a>
+                            </li>
+                            <li>
+                                <a href="#distanciaAnillasMin" >distanciaAnillasMin</a>
+                            </li>
+                            <li>
+                                <a href="#fabricacion" >fabricacion</a>
+                            </li>
+                            <li>
+                                <a href="#fondoMax" >fondoMax</a>
+                            </li>
+                            <li>
+                                <a href="#fondoMin" >fondoMin</a>
+                            </li>
+                            <li>
+                                <a href="#formas" >formas</a>
+                            </li>
+                            <li>
+                                <a href="#longitudEspoletadoMax" >longitudEspoletadoMax</a>
+                            </li>
+                            <li>
+                                <a href="#longitudEspoletadoMin" >longitudEspoletadoMin</a>
+                            </li>
+                            <li>
+                                <a href="#longitudMax" >longitudMax</a>
+                            </li>
+                            <li>
+                                <a href="#longitudMin" >longitudMin</a>
+                            </li>
+                            <li>
+                                <a href="#materialEnvuelta" >materialEnvuelta</a>
+                            </li>
+                            <li>
+                                <a href="#medioLanzamiento" >medioLanzamiento</a>
+                            </li>
+                            <li>
+                                <a href="#mostrarResultado" >mostrarResultado</a>
+                            </li>
+                            <li>
+                                <a href="#pinturaProteccionTermica" >pinturaProteccionTermica</a>
+                            </li>
+                            <li>
+                                <a href="#propositoArtefacto" >propositoArtefacto</a>
+                            </li>
+                            <li>
+                                <a href="#searchCriteria" >searchCriteria</a>
+                            </li>
+                            <li>
+                                <a href="#searchCriteriaCache" >searchCriteriaCache</a>
+                            </li>
+                            <li>
+                                <a href="#sistemaGuia" >sistemaGuia</a>
+                            </li>
+                            <li>
+                                <a href="#sistemaIniciacion" >sistemaIniciacion</a>
+                            </li>
+                            <li>
+                                <a href="#situacionEspoleta" >situacionEspoleta</a>
+                            </li>
+                            <li>
+                                <a href="#tipoArtefactos" >tipoArtefactos</a>
+                            </li>
+                            <li>
+                                <a href="#tipoCulote" >tipoCulote</a>
+                            </li>
+                            <li>
+                                <a href="#tipoEstabilizador" >tipoEstabilizador</a>
+                            </li>
+                            <li>
+                                <a href="#topMax" >topMax</a>
+                            </li>
+                            <li>
+                                <a href="#topMin" >topMin</a>
+                            </li>
+                            <li>
+                                <a href="#venterolEnEstabilizador" >venterolEnEstabilizador</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#buscar" >buscar</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(criteriosService: <a href="../injectables/CriteriosBusquedaService.html" target="_self">CriteriosBusquedaService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="76" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:76</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>criteriosService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/CriteriosBusquedaService.html" target="_self" >CriteriosBusquedaService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="buscar"></a>
+                    <span class="name">
+                        <span ><b>buscar</b></span>
+                        <a href="#buscar"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>buscar()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="85"
+                            class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:85</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>metodo que desencadena la signacion de los parametros ultimos introducidos eliminando los borrados o deseleccionados</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="80"
+                            class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:80</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="alturaMax"></a>
+                    <span class="name">
+                        <span ><b>alturaMax</b></span>
+                        <a href="#alturaMax"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="41" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:41</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="alturaMin"></a>
+                    <span class="name">
+                        <span ><b>alturaMin</b></span>
+                        <a href="#alturaMin"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="42" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:42</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="colorBandaMotor"></a>
+                    <span class="name">
+                        <span ><b>colorBandaMotor</b></span>
+                        <a href="#colorBandaMotor"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>tiposEnvironment.colores</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="66" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:66</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="colores"></a>
+                    <span class="name">
+                        <span ><b>colores</b></span>
+                        <a href="#colores"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>tiposEnvironment.colores</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="44" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:44</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="diametroCalibreMax"></a>
+                    <span class="name">
+                        <span ><b>diametroCalibreMax</b></span>
+                        <a href="#diametroCalibreMax"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:32</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="diametroCalibreMin"></a>
+                    <span class="name">
+                        <span ><b>diametroCalibreMin</b></span>
+                        <a href="#diametroCalibreMin"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="33" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:33</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="distanciaAnillasMax"></a>
+                    <span class="name">
+                        <span ><b>distanciaAnillasMax</b></span>
+                        <a href="#distanciaAnillasMax"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="61" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:61</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="distanciaAnillasMin"></a>
+                    <span class="name">
+                        <span ><b>distanciaAnillasMin</b></span>
+                        <a href="#distanciaAnillasMin"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="62" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:62</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="fabricacion"></a>
+                    <span class="name">
+                        <span ><b>fabricacion</b></span>
+                        <a href="#fabricacion"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>tiposEnvironment.fabricadoEn</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="45" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:45</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="fondoMax"></a>
+                    <span class="name">
+                        <span ><b>fondoMax</b></span>
+                        <a href="#fondoMax"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="38" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:38</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="fondoMin"></a>
+                    <span class="name">
+                        <span ><b>fondoMin</b></span>
+                        <a href="#fondoMin"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="39" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:39</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="formas"></a>
+                    <span class="name">
+                        <span ><b>formas</b></span>
+                        <a href="#formas"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>tiposEnvironment.formas</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="24" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:24</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="longitudEspoletadoMax"></a>
+                    <span class="name">
+                        <span ><b>longitudEspoletadoMax</b></span>
+                        <a href="#longitudEspoletadoMax"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="55" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:55</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="longitudEspoletadoMin"></a>
+                    <span class="name">
+                        <span ><b>longitudEspoletadoMin</b></span>
+                        <a href="#longitudEspoletadoMin"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="56" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:56</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="longitudMax"></a>
+                    <span class="name">
+                        <span ><b>longitudMax</b></span>
+                        <a href="#longitudMax"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="35" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:35</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="longitudMin"></a>
+                    <span class="name">
+                        <span ><b>longitudMin</b></span>
+                        <a href="#longitudMin"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="36" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:36</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="materialEnvuelta"></a>
+                    <span class="name">
+                        <span ><b>materialEnvuelta</b></span>
+                        <a href="#materialEnvuelta"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>tiposEnvironment.materialEnvuelta</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="51" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:51</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="medioLanzamiento"></a>
+                    <span class="name">
+                        <span ><b>medioLanzamiento</b></span>
+                        <a href="#medioLanzamiento"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>tiposEnvironment.mediosLanzamiento</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="70" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:70</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="mostrarResultado"></a>
+                    <span class="name">
+                        <span ><b>mostrarResultado</b></span>
+                        <a href="#mostrarResultado"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="76" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:76</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="pinturaProteccionTermica"></a>
+                    <span class="name">
+                        <span ><b>pinturaProteccionTermica</b></span>
+                        <a href="#pinturaProteccionTermica"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="60" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:60</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="propositoArtefacto"></a>
+                    <span class="name">
+                        <span ><b>propositoArtefacto</b></span>
+                        <a href="#propositoArtefacto"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>tiposEnvironment.propositoArtefacto.municiones
+    .concat(tiposEnvironment.propositoArtefacto.espoletas)
+    .concat(tiposEnvironment.propositoArtefacto.minas)</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="46" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:46</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="searchCriteria"></a>
+                    <span class="name">
+                        <span ><b>searchCriteria</b></span>
+                        <a href="#searchCriteria"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../interfaces/SearchCriteria.html" target="_self" >SearchCriteriaImpl</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new SearchCriteriaImpl()</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:18</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="searchCriteriaCache"></a>
+                    <span class="name">
+                        <span ><b>searchCriteriaCache</b></span>
+                        <a href="#searchCriteriaCache"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../interfaces/SearchCriteria.html" target="_self" >SearchCriteriaImpl</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>this.searchCriteria</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:19</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="sistemaGuia"></a>
+                    <span class="name">
+                        <span ><b>sistemaGuia</b></span>
+                        <a href="#sistemaGuia"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>tiposEnvironment.sistemaGuia</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="68" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:68</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="sistemaIniciacion"></a>
+                    <span class="name">
+                        <span ><b>sistemaIniciacion</b></span>
+                        <a href="#sistemaIniciacion"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>tiposEnvironment.sistemaIniciacion</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="73" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:73</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="situacionEspoleta"></a>
+                    <span class="name">
+                        <span ><b>situacionEspoleta</b></span>
+                        <a href="#situacionEspoleta"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>tiposEnvironment.situacionEspoleta</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="52" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:52</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="tipoArtefactos"></a>
+                    <span class="name">
+                        <span ><b>tipoArtefactos</b></span>
+                        <a href="#tipoArtefactos"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>tiposEnvironment.tipoArtefacto</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="22" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:22</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="tipoCulote"></a>
+                    <span class="name">
+                        <span ><b>tipoCulote</b></span>
+                        <a href="#tipoCulote"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>tiposEnvironment.tipoCulote</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="58" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:58</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="tipoEstabilizador"></a>
+                    <span class="name">
+                        <span ><b>tipoEstabilizador</b></span>
+                        <a href="#tipoEstabilizador"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="63" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:63</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="topMax"></a>
+                    <span class="name">
+                        <span ><b>topMax</b></span>
+                        <a href="#topMax"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>faArrowUp</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:28</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="topMin"></a>
+                    <span class="name">
+                        <span ><b>topMin</b></span>
+                        <a href="#topMin"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>faArrowDown</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:27</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="venterolEnEstabilizador"></a>
+                    <span class="name">
+                        <span ><b>venterolEnEstabilizador</b></span>
+                        <a href="#venterolEnEstabilizador"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="64" class="link-to-prism">src/app/fichas/buscador/buscador.component.ts:64</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &quot;@angular/core&quot;;
+import { tiposEnvironment } from &quot;src/environments/tiposEnvironment&quot;;
+import { SearchCriteriaImpl } from &quot;../models/search/search-criteriaImpl&quot;;
+import { CriteriosBusquedaService } from &quot;../services/criterios-busqueda.service&quot;;
+import { faArrowDown, faArrowUp } from &quot;@fortawesome/free-solid-svg-icons&quot;;
+
+/**
+ * componente que construye el objeto con los parametros de busqueda a partir de los inputs introducidos por el usuario
+ *
+ * Estos parametros se pasan al listado de fihcas para que presente solo las coincidencias obtenidas del Back
+ */
+@Component({
+  selector: &quot;app-buscador&quot;,
+  templateUrl: &quot;./buscador.component.html&quot;,
+  styleUrls: [&quot;./buscador.component.css&quot;],
+})
+export class BuscadorComponent implements OnInit {
+  searchCriteria: SearchCriteriaImpl &#x3D; new SearchCriteriaImpl();
+  searchCriteriaCache: SearchCriteriaImpl &#x3D; this.searchCriteria;
+
+  // criterios seleccionables en desplegables
+  tipoArtefactos &#x3D; tiposEnvironment.tipoArtefacto;
+
+  formas &#x3D; tiposEnvironment.formas;
+
+  //iconos de Fawesome
+  topMin &#x3D; faArrowDown;
+  topMax &#x3D; faArrowUp;
+
+  // criterios de dimensiones
+  // para diametro
+  diametroCalibreMax: number;
+  diametroCalibreMin: number;
+  // para longitud
+  longitudMax: number;
+  longitudMin: number;
+  // para fondo
+  fondoMax: number;
+  fondoMin: number;
+  // para altura
+  alturaMax: number;
+  alturaMin: number;
+  //otros criterios de Artefacto
+  colores &#x3D; tiposEnvironment.colores;
+  fabricacion &#x3D; tiposEnvironment.fabricadoEn;
+  propositoArtefacto &#x3D; tiposEnvironment.propositoArtefacto.municiones
+    .concat(tiposEnvironment.propositoArtefacto.espoletas)
+    .concat(tiposEnvironment.propositoArtefacto.minas);
+
+  //de minas
+  materialEnvuelta &#x3D; tiposEnvironment.materialEnvuelta;
+  situacionEspoleta &#x3D; tiposEnvironment.situacionEspoleta;
+
+  // De municion
+  longitudEspoletadoMax: number;
+  longitudEspoletadoMin: number;
+  //de proyectil
+  tipoCulote &#x3D; tiposEnvironment.tipoCulote;
+  // de bombas de aviacion
+  pinturaProteccionTermica: boolean;
+  distanciaAnillasMax: number;
+  distanciaAnillasMin: number;
+  tipoEstabilizador: string;
+  venterolEnEstabilizador: boolean;
+  // de Cohete
+  colorBandaMotor &#x3D; tiposEnvironment.colores;
+  // de Misil
+  sistemaGuia &#x3D; tiposEnvironment.sistemaGuia;
+  // de Granada
+  medioLanzamiento &#x3D; tiposEnvironment.mediosLanzamiento;
+
+  // de espoleta
+  sistemaIniciacion &#x3D; tiposEnvironment.sistemaIniciacion;
+
+  //para la presentacion
+  mostrarResultado: boolean &#x3D; false;
+
+  constructor(private criteriosService: CriteriosBusquedaService) {}
+
+  ngOnInit() {}
+
+  /**
+   * metodo que desencadena la signacion de los parametros ultimos introducidos eliminando los borrados o deseleccionados
+   */
+  buscar() {
+    this.searchCriteriaCache &#x3D; new SearchCriteriaImpl();
+    Object.keys(this.searchCriteria).map((key) &#x3D;&gt; {
+      if (this.searchCriteria[key] !&#x3D; &quot;&quot;) {
+        Object.defineProperty(this.searchCriteriaCache, key, {
+          value: this.searchCriteria[key],
+          writable: true,
+          enumerable: true,
+          configurable: true,
+        });
+      }
+    });
+    // console.log(JSON.stringify(this.searchCriteriaCache));
+    this.mostrarResultado &#x3D; true;
+    this.criteriosService.onChangeCriteria(this.searchCriteriaCache);
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;container&quot;&gt;
+  &lt;h3 class&#x3D;&quot;text-center&quot;&gt;Buscador de Artefactos&lt;/h3&gt;
+    &lt;p class&#x3D;&quot;text-center&quot;&gt;En esta sección puede realizarse una búsqueda de minas y municiones con filtros.&lt;/p&gt;
+  &lt;div class&#x3D;&quot;row fluid&quot;&gt;
+    &lt;div class&#x3D;&quot;my-4&quot;&gt;
+      &lt;!-- PArametros generales de artefactos --&gt;
+      &lt;div class&#x3D;&quot;shadow p-3 mb-5 bg-secondary bg-gradient rounded&quot;&gt;
+        &lt;h4 class&#x3D;&quot;text-center rounded-pill bg-light mb-4 p-2&quot;&gt;
+          Parámetros Comunes
+        &lt;/h4&gt;
+        &lt;div class&#x3D;&quot;shadow p-3 mb-5 bg-body rounded&quot;&gt;
+          &lt;h4&gt;Parámetros generales&lt;/h4&gt;
+          &lt;!-- input TipoArtefacto --&gt;
+          &lt;div class&#x3D;&quot;input-group mb-3&quot;&gt;
+            &lt;div class&#x3D;&quot;input-group-prepend&quot;&gt;
+              &lt;span class&#x3D;&quot;input-group-text&quot;&gt;Tipo&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;select
+              name&#x3D;&quot;tipoArtefacto&quot;
+              [(ngModel)]&#x3D;&quot;searchCriteria.tipoArtefacto&quot;
+              class&#x3D;&quot;custom-select col&quot;
+            &gt;
+              &lt;option *ngFor&#x3D;&quot;let tipo of tipoArtefactos&quot; [value]&#x3D;&quot;tipo.key&quot;&gt;
+                {{ tipo.value }}
+              &lt;/option&gt;
+              &lt;option value&#x3D;&quot;&quot;&gt;-- Descartar Parametro --&lt;/option&gt;
+            &lt;/select&gt;
+          &lt;/div&gt;
+
+          &lt;!-- input color --&gt;
+          &lt;div class&#x3D;&quot;input-group mb-3&quot;&gt;
+            &lt;div class&#x3D;&quot;input-group-prepend&quot;&gt;
+              &lt;span class&#x3D;&quot;input-group-text&quot;&gt;Color&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;select
+              name&#x3D;&quot;color&quot;
+              [(ngModel)]&#x3D;&quot;searchCriteria.color&quot;
+              class&#x3D;&quot;custom-select col&quot;
+            &gt;
+              &lt;option *ngFor&#x3D;&quot;let color of colores&quot; [value]&#x3D;&quot;color.key&quot;&gt;
+                {{ color.value }}
+              &lt;/option&gt;
+              &lt;option value&#x3D;&quot;&quot;&gt;-- Descartar Parametro --&lt;/option&gt;
+            &lt;/select&gt;
+          &lt;/div&gt;
+          &lt;!-- input fabricacion --&gt;
+          &lt;div class&#x3D;&quot;input-group mb-3&quot;&gt;
+            &lt;div class&#x3D;&quot;input-group-prepend&quot;&gt;
+              &lt;span class&#x3D;&quot;input-group-text&quot;&gt;Fabricación&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;select
+              name&#x3D;&quot;fabricacion&quot;
+              [(ngModel)]&#x3D;&quot;searchCriteria.fabricacion&quot;
+              class&#x3D;&quot;custom-select col&quot;
+            &gt;
+              &lt;option
+                *ngFor&#x3D;&quot;let fabricado of fabricacion&quot;
+                [value]&#x3D;&quot;fabricado.key&quot;
+              &gt;
+                {{ fabricado.value }}
+              &lt;/option&gt;
+              &lt;option value&#x3D;&quot;&quot;&gt;-- Descartar Parametro --&lt;/option&gt;
+            &lt;/select&gt;
+          &lt;/div&gt;
+
+          &lt;!-- input proposito --&gt;
+          &lt;div class&#x3D;&quot;input-group mb-3&quot;&gt;
+            &lt;div class&#x3D;&quot;input-group-prepend&quot;&gt;
+              &lt;span class&#x3D;&quot;input-group-text&quot;&gt;Proposito&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;select
+              name&#x3D;&quot;propositoArtefacto&quot;
+              [(ngModel)]&#x3D;&quot;searchCriteria.propositoArtefacto&quot;
+              class&#x3D;&quot;custom-select col&quot;
+            &gt;
+              &lt;option
+                *ngFor&#x3D;&quot;let proposito of propositoArtefacto&quot;
+                [value]&#x3D;&quot;proposito.key&quot;
+              &gt;
+                {{ proposito.value }}
+              &lt;/option&gt;
+              &lt;option value&#x3D;&quot;&quot;&gt;-- Descartar Parametro --&lt;/option&gt;
+            &lt;/select&gt;
+          &lt;/div&gt;
+
+          &lt;!-- input forma --&gt;
+          &lt;div class&#x3D;&quot;input-group mb-3&quot;&gt;
+            &lt;div class&#x3D;&quot;input-group-prepend&quot;&gt;
+              &lt;span class&#x3D;&quot;input-group-text&quot;&gt;Forma&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;select
+              name&#x3D;&quot;forma&quot;
+              [(ngModel)]&#x3D;&quot;searchCriteria.forma&quot;
+              class&#x3D;&quot;custom-select col&quot;
+            &gt;
+              &lt;option *ngFor&#x3D;&quot;let forma of formas&quot; [value]&#x3D;&quot;forma.key&quot;&gt;
+                {{ forma.value }}
+              &lt;/option&gt;
+              &lt;option value&#x3D;&quot;&quot;&gt;-- Descartar Parametro --&lt;/option&gt;
+            &lt;/select&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;!-- Input de dimensiones --&gt;
+        &lt;div class&#x3D;&quot;shadow p-3 mb-5 bg-body rounded&quot;&gt;
+          &lt;h4&gt;Dimensiones&lt;/h4&gt;
+          &lt;!-- calibre --&gt;
+          &lt;div class&#x3D;&quot;row&quot;&gt;
+            &lt;div class&#x3D;&quot;input-group-prepend col&quot;&gt;
+              &lt;span class&#x3D;&quot;input-group-text&quot;&gt;Calibre/Diametro en mm&lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class&#x3D;&quot;row&quot;&gt;
+              &lt;div class&#x3D;&quot;input-group mb-3&quot;&gt;
+                &lt;div class&#x3D;&quot;col row&quot;&gt;
+                  &lt;label
+                    class&#x3D;&quot;col d-flex justify-content-end align-items-center&quot;
+                  &gt;
+                    &lt;fa-icon [icon]&#x3D;&quot;topMin&quot;&gt;&lt;/fa-icon
+                  &gt;&lt;/label&gt;
+                  &lt;input
+                    class&#x3D;&quot;col m-3&quot;
+                    type&#x3D;&quot;number&quot;
+                    name&#x3D;&quot;diametroCalibreMin&quot;
+                    [(ngModel)]&#x3D;&quot;searchCriteria.diametroCalibreMin&quot;
+                    min&#x3D;&quot;0&quot;
+                    max&#x3D;&quot;30000&quot;
+                    placeholder&#x3D;&quot;min&quot;
+                    data-conversion&#x3D;&quot;1&quot;
+                    data-decimal&#x3D;&quot;0&quot;
+                    title&#x3D;&quot;El campo debe tener un valor entre 0 y 30000&quot;
+                  /&gt;
+                &lt;/div&gt;
+
+                &lt;div class&#x3D;&quot;col row&quot;&gt;
+                  &lt;label
+                    class&#x3D;&quot;col d-flex justify-content-end align-items-center&quot;
+                  &gt;
+                    &lt;fa-icon [icon]&#x3D;&quot;topMax&quot;&gt;&lt;/fa-icon
+                  &gt;&lt;/label&gt;
+                  &lt;input
+                    class&#x3D;&quot;col m-3&quot;
+                    type&#x3D;&quot;number&quot;
+                    name&#x3D;&quot;diametroCalibreMax&quot;
+                    [(ngModel)]&#x3D;&quot;searchCriteria.diametroCalibreMax&quot;
+                    min&#x3D;&quot;0&quot;
+                    max&#x3D;&quot;30000&quot;
+                    placeholder&#x3D;&quot;max&quot;
+                    data-conversion&#x3D;&quot;1&quot;
+                    data-decimal&#x3D;&quot;0&quot;
+                    title&#x3D;&quot;El campo debe tener un valor entre 0 y 30000&quot;
+                  /&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+          &lt;!-- longitud --&gt;
+          &lt;div class&#x3D;&quot;row&quot;&gt;
+            &lt;div class&#x3D;&quot;input-group-prepend col&quot;&gt;
+              &lt;span class&#x3D;&quot;input-group-text&quot;&gt;Longitud en mm&lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class&#x3D;&quot;row&quot;&gt;
+              &lt;div class&#x3D;&quot;input-group mb-3&quot;&gt;
+                &lt;div class&#x3D;&quot;col row&quot;&gt;
+                  &lt;label
+                    class&#x3D;&quot;col d-flex justify-content-end align-items-center&quot;
+                  &gt;
+                    &lt;fa-icon [icon]&#x3D;&quot;topMin&quot;&gt;&lt;/fa-icon
+                  &gt;&lt;/label&gt;
+                  &lt;input
+                    class&#x3D;&quot;col m-3&quot;
+                    type&#x3D;&quot;number&quot;
+                    name&#x3D;&quot;longitudMin&quot;
+                    [(ngModel)]&#x3D;&quot;searchCriteria.longitudMin&quot;
+                    min&#x3D;&quot;0&quot;
+                    max&#x3D;&quot;30000&quot;
+                    placeholder&#x3D;&quot;min&quot;
+                    data-conversion&#x3D;&quot;1&quot;
+                    data-decimal&#x3D;&quot;0&quot;
+                    title&#x3D;&quot;El campo debe tener un valor entre 0 y 30000&quot;
+                  /&gt;
+                &lt;/div&gt;
+
+                &lt;div class&#x3D;&quot;col row&quot;&gt;
+                  &lt;label
+                    class&#x3D;&quot;col d-flex justify-content-end align-items-center&quot;
+                  &gt;
+                    &lt;fa-icon [icon]&#x3D;&quot;topMax&quot;&gt;&lt;/fa-icon
+                  &gt;&lt;/label&gt;
+                  &lt;input
+                    class&#x3D;&quot;col m-3&quot;
+                    type&#x3D;&quot;number&quot;
+                    name&#x3D;&quot;longitudMax&quot;
+                    [(ngModel)]&#x3D;&quot;searchCriteria.longitudMax&quot;
+                    min&#x3D;&quot;0&quot;
+                    max&#x3D;&quot;30000&quot;
+                    placeholder&#x3D;&quot;max&quot;
+                    data-conversion&#x3D;&quot;1&quot;
+                    data-decimal&#x3D;&quot;0&quot;
+                    title&#x3D;&quot;El campo debe tener un valor entre 0 y 30000&quot;
+                  /&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+          &lt;!-- Altura --&gt;
+          &lt;div class&#x3D;&quot;row&quot;&gt;
+            &lt;div class&#x3D;&quot;input-group-prepend col&quot;&gt;
+              &lt;span class&#x3D;&quot;input-group-text&quot;&gt;Altura en mm&lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class&#x3D;&quot;row&quot;&gt;
+              &lt;div class&#x3D;&quot;input-group mb-3&quot;&gt;
+                &lt;div class&#x3D;&quot;col row&quot;&gt;
+                  &lt;label
+                    class&#x3D;&quot;col d-flex justify-content-end align-items-center&quot;
+                  &gt;
+                    &lt;fa-icon [icon]&#x3D;&quot;topMin&quot;&gt;&lt;/fa-icon
+                  &gt;&lt;/label&gt;
+                  &lt;input
+                    class&#x3D;&quot;col m-3&quot;
+                    type&#x3D;&quot;number&quot;
+                    name&#x3D;&quot;alturaMin&quot;
+                    [(ngModel)]&#x3D;&quot;searchCriteria.alturaMin&quot;
+                    min&#x3D;&quot;0&quot;
+                    max&#x3D;&quot;30000&quot;
+                    placeholder&#x3D;&quot;min&quot;
+                    data-conversion&#x3D;&quot;1&quot;
+                    data-decimal&#x3D;&quot;0&quot;
+                    title&#x3D;&quot;El campo debe tener un valor entre 0 y 30000&quot;
+                  /&gt;
+                &lt;/div&gt;
+
+                &lt;div class&#x3D;&quot;col row&quot;&gt;
+                  &lt;label
+                    class&#x3D;&quot;col d-flex justify-content-end align-items-center&quot;
+                  &gt;
+                    &lt;fa-icon [icon]&#x3D;&quot;topMax&quot;&gt;&lt;/fa-icon
+                  &gt;&lt;/label&gt;
+                  &lt;input
+                    class&#x3D;&quot;col m-3&quot;
+                    type&#x3D;&quot;number&quot;
+                    name&#x3D;&quot;alturaMax&quot;
+                    [(ngModel)]&#x3D;&quot;searchCriteria.alturaMax&quot;
+                    min&#x3D;&quot;0&quot;
+                    max&#x3D;&quot;30000&quot;
+                    placeholder&#x3D;&quot;max&quot;
+                    data-conversion&#x3D;&quot;1&quot;
+                    data-decimal&#x3D;&quot;0&quot;
+                    title&#x3D;&quot;El campo debe tener un valor entre 0 y 30000&quot;
+                  /&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+          &lt;!-- fondo --&gt;
+          &lt;div class&#x3D;&quot;row&quot;&gt;
+            &lt;div class&#x3D;&quot;input-group-prepend col&quot;&gt;
+              &lt;span class&#x3D;&quot;input-group-text&quot;&gt;Fondo en mm&lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class&#x3D;&quot;row&quot;&gt;
+              &lt;div class&#x3D;&quot;input-group mb-3&quot;&gt;
+                &lt;div class&#x3D;&quot;col row&quot;&gt;
+                  &lt;label
+                    class&#x3D;&quot;col d-flex justify-content-end align-items-center&quot;
+                  &gt;
+                    &lt;fa-icon [icon]&#x3D;&quot;topMin&quot;&gt;&lt;/fa-icon
+                  &gt;&lt;/label&gt;
+                  &lt;input
+                    class&#x3D;&quot;col m-3&quot;
+                    type&#x3D;&quot;number&quot;
+                    name&#x3D;&quot;fondoMin&quot;
+                    [(ngModel)]&#x3D;&quot;searchCriteria.fondoMin&quot;
+                    min&#x3D;&quot;0&quot;
+                    max&#x3D;&quot;30000&quot;
+                    placeholder&#x3D;&quot;min&quot;
+                    data-conversion&#x3D;&quot;1&quot;
+                    data-decimal&#x3D;&quot;0&quot;
+                    title&#x3D;&quot;El campo debe tener un valor entre 0 y 30000&quot;
+                  /&gt;
+                &lt;/div&gt;
+                &lt;div class&#x3D;&quot;col row&quot;&gt;
+                  &lt;label
+                    class&#x3D;&quot;col d-flex justify-content-end align-items-center&quot;
+                  &gt;
+                    &lt;fa-icon [icon]&#x3D;&quot;topMax&quot;&gt;&lt;/fa-icon
+                  &gt;&lt;/label&gt;
+                  &lt;input
+                    class&#x3D;&quot;col m-3&quot;
+                    type&#x3D;&quot;number&quot;
+                    name&#x3D;&quot;fondoMax&quot;
+                    [(ngModel)]&#x3D;&quot;searchCriteria.fondoMax&quot;
+                    min&#x3D;&quot;0&quot;
+                    max&#x3D;&quot;30000&quot;
+                    placeholder&#x3D;&quot;max&quot;
+                    data-conversion&#x3D;&quot;1&quot;
+                    data-decimal&#x3D;&quot;0&quot;
+                    title&#x3D;&quot;El campo debe tener un valor entre 0 y 30000&quot;
+                  /&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;hr /&gt;
+      &lt;div class&#x3D;&quot;shadow p-3 mb-5 bg-secondary bg-gradient rounded&quot;&gt;
+        &lt;div&gt;
+          &lt;h4 class&#x3D;&quot;text-center rounded-pill bg-light mb-4 p-2&quot;&gt;
+            Criterios específicos
+          &lt;/h4&gt;
+          &lt;div class&#x3D;&quot;shadow p-3 mb-5 bg-body rounded&quot;&gt;
+            &lt;!-- input especificaos de minas --&gt;
+            &lt;h5&gt;De minas&lt;/h5&gt;
+            &lt;div class&#x3D;&quot;input-group mb-3&quot;&gt;
+              &lt;div class&#x3D;&quot;input-group-prepend&quot;&gt;
+                &lt;span class&#x3D;&quot;input-group-text&quot;&gt;Material de la envuelta &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;select
+                name&#x3D;&quot;forma&quot;
+                [(ngModel)]&#x3D;&quot;searchCriteria.materialEnvuelta&quot;
+                class&#x3D;&quot;custom-select col&quot;
+              &gt;
+                &lt;option
+                  *ngFor&#x3D;&quot;let envuelta of materialEnvuelta&quot;
+                  [value]&#x3D;&quot;envuelta.key&quot;
+                &gt;
+                  {{ envuelta.value }}
+                &lt;/option&gt;
+                &lt;option value&#x3D;&quot;&quot;&gt;-- Descartar Parametro --&lt;/option&gt;
+              &lt;/select&gt;
+            &lt;/div&gt;
+            &lt;div class&#x3D;&quot;input-group mb-3&quot;&gt;
+              &lt;div class&#x3D;&quot;input-group-prepend&quot;&gt;
+                &lt;span class&#x3D;&quot;input-group-text&quot;&gt;Situacion de la espoleta &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;select
+                [(ngModel)]&#x3D;&quot;searchCriteria.situacionEspoleta&quot;
+                class&#x3D;&quot;custom-select col&quot;
+              &gt;
+                &lt;option
+                  *ngFor&#x3D;&quot;let situacion of situacionEspoleta&quot;
+                  [value]&#x3D;&quot;situacion.key&quot;
+                &gt;
+                  {{ situacion.value }}
+                &lt;/option&gt;
+                &lt;option value&#x3D;&quot;&quot;&gt;-- Descartar Parametro --&lt;/option&gt;
+              &lt;/select&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;!-- input especificos de municiones --&gt;
+        &lt;div class&#x3D;&quot;shadow p-3 mb-5 bg-body rounded&quot;&gt;
+          &lt;h5&gt;De municiones&lt;/h5&gt;
+          &lt;!-- de municion --&gt;
+          &lt;div class&#x3D;&quot;border p-2&quot;&gt;
+            &lt;h6&gt;De munición&lt;/h6&gt;
+            &lt;div class&#x3D;&quot;input-group mb-3&quot;&gt;
+              &lt;!-- Longitud espoletado --&gt;
+              &lt;div class&#x3D;&quot;row&quot;&gt;
+                &lt;div class&#x3D;&quot;input-group-prepend col&quot;&gt;
+                  &lt;span class&#x3D;&quot;input-group-text&quot;
+                    &gt;Longitud con espoleta en mm&lt;/span
+                  &gt;
+                &lt;/div&gt;
+
+                &lt;div class&#x3D;&quot;row&quot;&gt;
+                  &lt;div class&#x3D;&quot;input-group mb-3&quot;&gt;
+                    &lt;div class&#x3D;&quot;col row&quot;&gt;
+                      &lt;label
+                        class&#x3D;&quot;
+                          col
+                          d-flex
+                          justify-content-end
+                          align-items-center
+                        &quot;
+                      &gt;
+                        &lt;fa-icon [icon]&#x3D;&quot;topMin&quot;&gt;&lt;/fa-icon
+                      &gt;&lt;/label&gt;
+                      &lt;input
+                        class&#x3D;&quot;col m-3&quot;
+                        type&#x3D;&quot;number&quot;
+                        name&#x3D;&quot;longitudEspoletadoMin&quot;
+                        [(ngModel)]&#x3D;&quot;searchCriteria.longitudEspoletadoMin&quot;
+                        min&#x3D;&quot;0&quot;
+                        max&#x3D;&quot;30000&quot;
+                        placeholder&#x3D;&quot;min&quot;
+                        data-conversion&#x3D;&quot;1&quot;
+                        data-decimal&#x3D;&quot;0&quot;
+                        title&#x3D;&quot;El campo debe tener un valor entre 0 y 30000&quot;
+                      /&gt;
+                    &lt;/div&gt;
+                    &lt;div class&#x3D;&quot;col row&quot;&gt;
+                      &lt;label
+                        class&#x3D;&quot;
+                          col
+                          d-flex
+                          justify-content-end
+                          align-items-center
+                        &quot;
+                      &gt;
+                        &lt;fa-icon [icon]&#x3D;&quot;topMax&quot;&gt;&lt;/fa-icon
+                      &gt;&lt;/label&gt;
+                      &lt;input
+                        class&#x3D;&quot;col m-3&quot;
+                        type&#x3D;&quot;number&quot;
+                        name&#x3D;&quot;longitudEspoletadoMax&quot;
+                        [(ngModel)]&#x3D;&quot;searchCriteria.longitudEspoletadoMax&quot;
+                        min&#x3D;&quot;0&quot;
+                        max&#x3D;&quot;30000&quot;
+                        placeholder&#x3D;&quot;max&quot;
+                        data-conversion&#x3D;&quot;1&quot;
+                        data-decimal&#x3D;&quot;0&quot;
+                        title&#x3D;&quot;El campo debe tener un valor entre 0 y 30000&quot;
+                      /&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;br /&gt;
+
+          &lt;!-- De cohetes  --&gt;
+          &lt;div&gt;
+            &lt;div class&#x3D;&quot;border p-2&quot;&gt;
+              &lt;h6&gt;De Cohetes&lt;/h6&gt;
+              &lt;div class&#x3D;&quot;input-group mb-3&quot;&gt;
+                &lt;div class&#x3D;&quot;input-group-prepend&quot;&gt;
+                  &lt;span class&#x3D;&quot;input-group-text&quot;
+                    &gt;Color de la banda de motor
+                  &lt;/span&gt;
+                &lt;/div&gt;
+                &lt;select
+                  name&#x3D;&quot;colorBandaMotor&quot;
+                  [(ngModel)]&#x3D;&quot;searchCriteria.colorBandaMotor&quot;
+                  class&#x3D;&quot;custom-select col&quot;
+                &gt;
+                  &lt;option
+                    *ngFor&#x3D;&quot;let banda of colorBandaMotor&quot;
+                    [value]&#x3D;&quot;banda.key&quot;
+                  &gt;
+                    {{ banda.value }}
+                  &lt;/option&gt;
+                  &lt;option value&#x3D;&quot;&quot;&gt;-- Descartar Parametro --&lt;/option&gt;
+                &lt;/select&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;br /&gt;
+
+          &lt;!-- De Misiles  --&gt;
+          &lt;div&gt;
+            &lt;div class&#x3D;&quot;border p-2&quot;&gt;
+              &lt;h6&gt;De Misiles&lt;/h6&gt;
+              &lt;div class&#x3D;&quot;input-group mb-3&quot;&gt;
+                &lt;div class&#x3D;&quot;input-group-prepend&quot;&gt;
+                  &lt;span class&#x3D;&quot;input-group-text&quot;&gt;Sistema de guia &lt;/span&gt;
+                &lt;/div&gt;
+                &lt;select
+                  name&#x3D;&quot;sistemaGuia&quot;
+                  [(ngModel)]&#x3D;&quot;searchCriteria.sistemaGuia&quot;
+                  class&#x3D;&quot;custom-select col&quot;
+                &gt;
+                  &lt;option *ngFor&#x3D;&quot;let guia of sistemaGuia&quot; [value]&#x3D;&quot;guia.key&quot;&gt;
+                    {{ guia.value }}
+                  &lt;/option&gt;
+                  &lt;option value&#x3D;&quot;&quot;&gt;-- Descartar Parametro --&lt;/option&gt;
+                &lt;/select&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;br /&gt;
+
+          &lt;!-- De granadas  --&gt;
+          &lt;div&gt;
+            &lt;div class&#x3D;&quot;border p-2&quot;&gt;
+              &lt;h6&gt;De granadas&lt;/h6&gt;
+              &lt;div class&#x3D;&quot;input-group mb-3&quot;&gt;
+                &lt;div class&#x3D;&quot;input-group-prepend&quot;&gt;
+                  &lt;span class&#x3D;&quot;input-group-text&quot;&gt;Medio de lanzamiento &lt;/span&gt;
+                &lt;/div&gt;
+                &lt;select
+                  name&#x3D;&quot;medio&quot;
+                  [(ngModel)]&#x3D;&quot;searchCriteria.medioLanzamiento&quot;
+                  class&#x3D;&quot;custom-select col&quot;
+                &gt;
+                  &lt;option
+                    *ngFor&#x3D;&quot;let medio of medioLanzamiento&quot;
+                    [value]&#x3D;&quot;medio.key&quot;
+                  &gt;
+                    {{ medio.value }}
+                  &lt;/option&gt;
+                  &lt;option value&#x3D;&quot;&quot;&gt;-- Descartar Parametro --&lt;/option&gt;
+                &lt;/select&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;br /&gt;
+
+          &lt;!-- De bombas --&gt;
+          &lt;div class&#x3D;&quot;border p-2&quot;&gt;
+            &lt;h6&gt;De Bombas de Aviación&lt;/h6&gt;
+            &lt;div class&#x3D;&quot;input-group mb-3&quot;&gt;
+              &lt;div class&#x3D;&quot;input-group-prepend&quot;&gt;
+                &lt;span class&#x3D;&quot;input-group-text&quot;
+                  &gt;Pintura de proteccion térmica
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;input
+                class&#x3D;&quot;m-2&quot;
+                type&#x3D;&quot;checkbox&quot;
+                name&#x3D;&quot;pinturaProteccionTermica&quot;
+                [(ngModel)]&#x3D;&quot;searchCriteria.pinturaProteccionTermica&quot;
+              /&gt;
+            &lt;/div&gt;
+
+            &lt;div class&#x3D;&quot;input-group mb-3&quot;&gt;
+              &lt;div class&#x3D;&quot;input-group-prepend&quot;&gt;
+                &lt;span class&#x3D;&quot;input-group-text&quot;
+                  &gt;Venterol en el estabilizador
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;input
+                class&#x3D;&quot;m-2&quot;
+                type&#x3D;&quot;checkbox&quot;
+                name&#x3D;&quot;venterolEnEstabilizador&quot;
+                [(ngModel)]&#x3D;&quot;searchCriteria.venterolEnEstabilizador&quot;
+              /&gt;
+            &lt;/div&gt;
+
+            &lt;div class&#x3D;&quot;input-group mb-3&quot;&gt;
+              &lt;div class&#x3D;&quot;input-group-prepend&quot;&gt;
+                &lt;span class&#x3D;&quot;input-group-text&quot;&gt;Tipo de estabilizador&lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div&gt;
+                &lt;input
+                  name&#x3D;&quot;tipoEstabilizador&quot;
+                  type&#x3D;&quot;text&quot;
+                  [(ngModel)]&#x3D;&quot;searchCriteria.tipoEstabilizador&quot;
+                  placeholder&#x3D;&quot;estabilizador&quot;
+                  class&#x3D;&quot;form-control&quot;
+                /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;!-- distancia entre anillas --&gt;
+            &lt;div class&#x3D;&quot;row&quot;&gt;
+              &lt;div class&#x3D;&quot;input-group-prepend col&quot;&gt;
+                &lt;span class&#x3D;&quot;input-group-text&quot;
+                  &gt;Distancia entre anillas en mm&lt;/span
+                &gt;
+              &lt;/div&gt;
+              &lt;div class&#x3D;&quot;row&quot;&gt;
+                &lt;div class&#x3D;&quot;col row&quot;&gt;
+                  &lt;label
+                    class&#x3D;&quot;col d-flex justify-content-end align-items-center&quot;
+                  &gt;
+                    &lt;fa-icon [icon]&#x3D;&quot;topMin&quot;&gt;&lt;/fa-icon
+                  &gt;&lt;/label&gt;
+                  &lt;input
+                    class&#x3D;&quot;col m-3&quot;
+                    type&#x3D;&quot;number&quot;
+                    name&#x3D;&quot;distanciaAnillasMin&quot;
+                    [(ngModel)]&#x3D;&quot;searchCriteria.distanciaAnillasMin&quot;
+                    min&#x3D;&quot;0&quot;
+                    max&#x3D;&quot;30000&quot;
+                    placeholder&#x3D;&quot;min&quot;
+                    data-conversion&#x3D;&quot;1&quot;
+                    data-decimal&#x3D;&quot;0&quot;
+                    title&#x3D;&quot;El campo debe tener un valor entre 0 y 30000&quot;
+                  /&gt;
+                &lt;/div&gt;
+
+                &lt;div class&#x3D;&quot;col row&quot;&gt;
+                  &lt;label
+                    class&#x3D;&quot;col d-flex justify-content-end align-items-center&quot;
+                  &gt;
+                    &lt;fa-icon [icon]&#x3D;&quot;topMax&quot;&gt;&lt;/fa-icon
+                  &gt;&lt;/label&gt;
+                  &lt;input
+                    class&#x3D;&quot;col m-3&quot;
+                    type&#x3D;&quot;number&quot;
+                    name&#x3D;&quot;distanciaAnillasMax&quot;
+                    [(ngModel)]&#x3D;&quot;searchCriteria.distanciaAnillasMax&quot;
+                    min&#x3D;&quot;0&quot;
+                    max&#x3D;&quot;30000&quot;
+                    placeholder&#x3D;&quot;max&quot;
+                    data-conversion&#x3D;&quot;1&quot;
+                    data-decimal&#x3D;&quot;0&quot;
+                    title&#x3D;&quot;El campo debe tener un valor entre 0 y 30000&quot;
+                  /&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class&#x3D;&quot;shadow p-3 mb-5 bg-body rounded&quot;&gt;
+          &lt;!-- input especificos de Espoletas --&gt;
+          &lt;h5&gt;De Espoletas&lt;/h5&gt;
+          &lt;div class&#x3D;&quot;input-group mb-3&quot;&gt;
+            &lt;div class&#x3D;&quot;input-group-prepend&quot;&gt;
+              &lt;span class&#x3D;&quot;input-group-text&quot;&gt;Sistema de iniciacion &lt;/span&gt;
+            &lt;/div&gt;
+            &lt;select
+              name&#x3D;&quot;sistemaIniciacion&quot;
+              [(ngModel)]&#x3D;&quot;searchCriteria.sistemaIniciacion&quot;
+              class&#x3D;&quot;custom-select col&quot;
+            &gt;
+              &lt;option
+                *ngFor&#x3D;&quot;let iniciacion of sistemaIniciacion&quot;
+                [value]&#x3D;&quot;iniciacion.key&quot;
+              &gt;
+                {{ iniciacion.value }}
+              &lt;/option&gt;
+              &lt;option value&#x3D;&quot;&quot;&gt;-- Descartar Parametro --&lt;/option&gt;
+            &lt;/select&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;hr /&gt;
+
+      &lt;!-- Boton de buscar  --&gt;
+      &lt;div class&#x3D;&quot;d-flex justify-content-center&quot; style&#x3D;&quot;position:static;&quot;&gt;
+        &lt;input
+          value&#x3D;&quot;BUSCAR&quot;
+          type&#x3D;&quot;submit&quot;
+          (click)&#x3D;&quot;buscar()&quot;
+          class&#x3D;&quot;btn btn-success&quot;
+        /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;app-listadofichas *ngIf&#x3D;&quot;mostrarResultado&quot;&gt;&lt;/app-listadofichas&gt;
+
+&lt;/div&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./buscador.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.btn{
+    position: fixed;
+	bottom: 5%;
+	right: 10%;
+    width: 80%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 6px 15px 10px gray;
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="container">  <h3 class="text-center">Buscador de Artefactos</h3>    <p class="text-center">En esta sección puede realizarse una búsqueda de minas y municiones con filtros.</p>  <div class="row fluid">    <div class="my-4">      <!-- PArametros generales de artefactos -->      <div class="shadow p-3 mb-5 bg-secondary bg-gradient rounded">        <h4 class="text-center rounded-pill bg-light mb-4 p-2">          Parámetros Comunes        </h4>        <div class="shadow p-3 mb-5 bg-body rounded">          <h4>Parámetros generales</h4>          <!-- input TipoArtefacto -->          <div class="input-group mb-3">            <div class="input-group-prepend">              <span class="input-group-text">Tipo</span>            </div>            <select              name="tipoArtefacto"              [(ngModel)]="searchCriteria.tipoArtefacto"              class="custom-select col"            >              <option *ngFor="let tipo of tipoArtefactos" [value]="tipo.key">                {{ tipo.value }}              </option>              <option value="">-- Descartar Parametro --</option>            </select>          </div>          <!-- input color -->          <div class="input-group mb-3">            <div class="input-group-prepend">              <span class="input-group-text">Color</span>            </div>            <select              name="color"              [(ngModel)]="searchCriteria.color"              class="custom-select col"            >              <option *ngFor="let color of colores" [value]="color.key">                {{ color.value }}              </option>              <option value="">-- Descartar Parametro --</option>            </select>          </div>          <!-- input fabricacion -->          <div class="input-group mb-3">            <div class="input-group-prepend">              <span class="input-group-text">Fabricación</span>            </div>            <select              name="fabricacion"              [(ngModel)]="searchCriteria.fabricacion"              class="custom-select col"            >              <option                *ngFor="let fabricado of fabricacion"                [value]="fabricado.key"              >                {{ fabricado.value }}              </option>              <option value="">-- Descartar Parametro --</option>            </select>          </div>          <!-- input proposito -->          <div class="input-group mb-3">            <div class="input-group-prepend">              <span class="input-group-text">Proposito</span>            </div>            <select              name="propositoArtefacto"              [(ngModel)]="searchCriteria.propositoArtefacto"              class="custom-select col"            >              <option                *ngFor="let proposito of propositoArtefacto"                [value]="proposito.key"              >                {{ proposito.value }}              </option>              <option value="">-- Descartar Parametro --</option>            </select>          </div>          <!-- input forma -->          <div class="input-group mb-3">            <div class="input-group-prepend">              <span class="input-group-text">Forma</span>            </div>            <select              name="forma"              [(ngModel)]="searchCriteria.forma"              class="custom-select col"            >              <option *ngFor="let forma of formas" [value]="forma.key">                {{ forma.value }}              </option>              <option value="">-- Descartar Parametro --</option>            </select>          </div>        </div>        <!-- Input de dimensiones -->        <div class="shadow p-3 mb-5 bg-body rounded">          <h4>Dimensiones</h4>          <!-- calibre -->          <div class="row">            <div class="input-group-prepend col">              <span class="input-group-text">Calibre/Diametro en mm</span>            </div>            <div class="row">              <div class="input-group mb-3">                <div class="col row">                  <label                    class="col d-flex justify-content-end align-items-center"                  >                    <fa-icon [icon]="topMin"></fa-icon                  ></label>                  <input                    class="col m-3"                    type="number"                    name="diametroCalibreMin"                    [(ngModel)]="searchCriteria.diametroCalibreMin"                    min="0"                    max="30000"                    placeholder="min"                    data-conversion="1"                    data-decimal="0"                    title="El campo debe tener un valor entre 0 y 30000"                  />                </div>                <div class="col row">                  <label                    class="col d-flex justify-content-end align-items-center"                  >                    <fa-icon [icon]="topMax"></fa-icon                  ></label>                  <input                    class="col m-3"                    type="number"                    name="diametroCalibreMax"                    [(ngModel)]="searchCriteria.diametroCalibreMax"                    min="0"                    max="30000"                    placeholder="max"                    data-conversion="1"                    data-decimal="0"                    title="El campo debe tener un valor entre 0 y 30000"                  />                </div>              </div>            </div>          </div>          <!-- longitud -->          <div class="row">            <div class="input-group-prepend col">              <span class="input-group-text">Longitud en mm</span>            </div>            <div class="row">              <div class="input-group mb-3">                <div class="col row">                  <label                    class="col d-flex justify-content-end align-items-center"                  >                    <fa-icon [icon]="topMin"></fa-icon                  ></label>                  <input                    class="col m-3"                    type="number"                    name="longitudMin"                    [(ngModel)]="searchCriteria.longitudMin"                    min="0"                    max="30000"                    placeholder="min"                    data-conversion="1"                    data-decimal="0"                    title="El campo debe tener un valor entre 0 y 30000"                  />                </div>                <div class="col row">                  <label                    class="col d-flex justify-content-end align-items-center"                  >                    <fa-icon [icon]="topMax"></fa-icon                  ></label>                  <input                    class="col m-3"                    type="number"                    name="longitudMax"                    [(ngModel)]="searchCriteria.longitudMax"                    min="0"                    max="30000"                    placeholder="max"                    data-conversion="1"                    data-decimal="0"                    title="El campo debe tener un valor entre 0 y 30000"                  />                </div>              </div>            </div>          </div>          <!-- Altura -->          <div class="row">            <div class="input-group-prepend col">              <span class="input-group-text">Altura en mm</span>            </div>            <div class="row">              <div class="input-group mb-3">                <div class="col row">                  <label                    class="col d-flex justify-content-end align-items-center"                  >                    <fa-icon [icon]="topMin"></fa-icon                  ></label>                  <input                    class="col m-3"                    type="number"                    name="alturaMin"                    [(ngModel)]="searchCriteria.alturaMin"                    min="0"                    max="30000"                    placeholder="min"                    data-conversion="1"                    data-decimal="0"                    title="El campo debe tener un valor entre 0 y 30000"                  />                </div>                <div class="col row">                  <label                    class="col d-flex justify-content-end align-items-center"                  >                    <fa-icon [icon]="topMax"></fa-icon                  ></label>                  <input                    class="col m-3"                    type="number"                    name="alturaMax"                    [(ngModel)]="searchCriteria.alturaMax"                    min="0"                    max="30000"                    placeholder="max"                    data-conversion="1"                    data-decimal="0"                    title="El campo debe tener un valor entre 0 y 30000"                  />                </div>              </div>            </div>          </div>          <!-- fondo -->          <div class="row">            <div class="input-group-prepend col">              <span class="input-group-text">Fondo en mm</span>            </div>            <div class="row">              <div class="input-group mb-3">                <div class="col row">                  <label                    class="col d-flex justify-content-end align-items-center"                  >                    <fa-icon [icon]="topMin"></fa-icon                  ></label>                  <input                    class="col m-3"                    type="number"                    name="fondoMin"                    [(ngModel)]="searchCriteria.fondoMin"                    min="0"                    max="30000"                    placeholder="min"                    data-conversion="1"                    data-decimal="0"                    title="El campo debe tener un valor entre 0 y 30000"                  />                </div>                <div class="col row">                  <label                    class="col d-flex justify-content-end align-items-center"                  >                    <fa-icon [icon]="topMax"></fa-icon                  ></label>                  <input                    class="col m-3"                    type="number"                    name="fondoMax"                    [(ngModel)]="searchCriteria.fondoMax"                    min="0"                    max="30000"                    placeholder="max"                    data-conversion="1"                    data-decimal="0"                    title="El campo debe tener un valor entre 0 y 30000"                  />                </div>              </div>            </div>          </div>        </div>      </div>      <hr />      <div class="shadow p-3 mb-5 bg-secondary bg-gradient rounded">        <div>          <h4 class="text-center rounded-pill bg-light mb-4 p-2">            Criterios específicos          </h4>          <div class="shadow p-3 mb-5 bg-body rounded">            <!-- input especificaos de minas -->            <h5>De minas</h5>            <div class="input-group mb-3">              <div class="input-group-prepend">                <span class="input-group-text">Material de la envuelta </span>              </div>              <select                name="forma"                [(ngModel)]="searchCriteria.materialEnvuelta"                class="custom-select col"              >                <option                  *ngFor="let envuelta of materialEnvuelta"                  [value]="envuelta.key"                >                  {{ envuelta.value }}                </option>                <option value="">-- Descartar Parametro --</option>              </select>            </div>            <div class="input-group mb-3">              <div class="input-group-prepend">                <span class="input-group-text">Situacion de la espoleta </span>              </div>              <select                [(ngModel)]="searchCriteria.situacionEspoleta"                class="custom-select col"              >                <option                  *ngFor="let situacion of situacionEspoleta"                  [value]="situacion.key"                >                  {{ situacion.value }}                </option>                <option value="">-- Descartar Parametro --</option>              </select>            </div>          </div>        </div>        <!-- input especificos de municiones -->        <div class="shadow p-3 mb-5 bg-body rounded">          <h5>De municiones</h5>          <!-- de municion -->          <div class="border p-2">            <h6>De munición</h6>            <div class="input-group mb-3">              <!-- Longitud espoletado -->              <div class="row">                <div class="input-group-prepend col">                  <span class="input-group-text"                    >Longitud con espoleta en mm</span                  >                </div>                <div class="row">                  <div class="input-group mb-3">                    <div class="col row">                      <label                        class="                          col                          d-flex                          justify-content-end                          align-items-center                        "                      >                        <fa-icon [icon]="topMin"></fa-icon                      ></label>                      <input                        class="col m-3"                        type="number"                        name="longitudEspoletadoMin"                        [(ngModel)]="searchCriteria.longitudEspoletadoMin"                        min="0"                        max="30000"                        placeholder="min"                        data-conversion="1"                        data-decimal="0"                        title="El campo debe tener un valor entre 0 y 30000"                      />                    </div>                    <div class="col row">                      <label                        class="                          col                          d-flex                          justify-content-end                          align-items-center                        "                      >                        <fa-icon [icon]="topMax"></fa-icon                      ></label>                      <input                        class="col m-3"                        type="number"                        name="longitudEspoletadoMax"                        [(ngModel)]="searchCriteria.longitudEspoletadoMax"                        min="0"                        max="30000"                        placeholder="max"                        data-conversion="1"                        data-decimal="0"                        title="El campo debe tener un valor entre 0 y 30000"                      />                    </div>                  </div>                </div>              </div>            </div>          </div>          <br />          <!-- De cohetes  -->          <div>            <div class="border p-2">              <h6>De Cohetes</h6>              <div class="input-group mb-3">                <div class="input-group-prepend">                  <span class="input-group-text"                    >Color de la banda de motor                  </span>                </div>                <select                  name="colorBandaMotor"                  [(ngModel)]="searchCriteria.colorBandaMotor"                  class="custom-select col"                >                  <option                    *ngFor="let banda of colorBandaMotor"                    [value]="banda.key"                  >                    {{ banda.value }}                  </option>                  <option value="">-- Descartar Parametro --</option>                </select>              </div>            </div>          </div>          <br />          <!-- De Misiles  -->          <div>            <div class="border p-2">              <h6>De Misiles</h6>              <div class="input-group mb-3">                <div class="input-group-prepend">                  <span class="input-group-text">Sistema de guia </span>                </div>                <select                  name="sistemaGuia"                  [(ngModel)]="searchCriteria.sistemaGuia"                  class="custom-select col"                >                  <option *ngFor="let guia of sistemaGuia" [value]="guia.key">                    {{ guia.value }}                  </option>                  <option value="">-- Descartar Parametro --</option>                </select>              </div>            </div>          </div>          <br />          <!-- De granadas  -->          <div>            <div class="border p-2">              <h6>De granadas</h6>              <div class="input-group mb-3">                <div class="input-group-prepend">                  <span class="input-group-text">Medio de lanzamiento </span>                </div>                <select                  name="medio"                  [(ngModel)]="searchCriteria.medioLanzamiento"                  class="custom-select col"                >                  <option                    *ngFor="let medio of medioLanzamiento"                    [value]="medio.key"                  >                    {{ medio.value }}                  </option>                  <option value="">-- Descartar Parametro --</option>                </select>              </div>            </div>          </div>          <br />          <!-- De bombas -->          <div class="border p-2">            <h6>De Bombas de Aviación</h6>            <div class="input-group mb-3">              <div class="input-group-prepend">                <span class="input-group-text"                  >Pintura de proteccion térmica                </span>              </div>              <input                class="m-2"                type="checkbox"                name="pinturaProteccionTermica"                [(ngModel)]="searchCriteria.pinturaProteccionTermica"              />            </div>            <div class="input-group mb-3">              <div class="input-group-prepend">                <span class="input-group-text"                  >Venterol en el estabilizador                </span>              </div>              <input                class="m-2"                type="checkbox"                name="venterolEnEstabilizador"                [(ngModel)]="searchCriteria.venterolEnEstabilizador"              />            </div>            <div class="input-group mb-3">              <div class="input-group-prepend">                <span class="input-group-text">Tipo de estabilizador</span>              </div>              <div>                <input                  name="tipoEstabilizador"                  type="text"                  [(ngModel)]="searchCriteria.tipoEstabilizador"                  placeholder="estabilizador"                  class="form-control"                />              </div>            </div>            <!-- distancia entre anillas -->            <div class="row">              <div class="input-group-prepend col">                <span class="input-group-text"                  >Distancia entre anillas en mm</span                >              </div>              <div class="row">                <div class="col row">                  <label                    class="col d-flex justify-content-end align-items-center"                  >                    <fa-icon [icon]="topMin"></fa-icon                  ></label>                  <input                    class="col m-3"                    type="number"                    name="distanciaAnillasMin"                    [(ngModel)]="searchCriteria.distanciaAnillasMin"                    min="0"                    max="30000"                    placeholder="min"                    data-conversion="1"                    data-decimal="0"                    title="El campo debe tener un valor entre 0 y 30000"                  />                </div>                <div class="col row">                  <label                    class="col d-flex justify-content-end align-items-center"                  >                    <fa-icon [icon]="topMax"></fa-icon                  ></label>                  <input                    class="col m-3"                    type="number"                    name="distanciaAnillasMax"                    [(ngModel)]="searchCriteria.distanciaAnillasMax"                    min="0"                    max="30000"                    placeholder="max"                    data-conversion="1"                    data-decimal="0"                    title="El campo debe tener un valor entre 0 y 30000"                  />                </div>              </div>            </div>          </div>        </div>        <div class="shadow p-3 mb-5 bg-body rounded">          <!-- input especificos de Espoletas -->          <h5>De Espoletas</h5>          <div class="input-group mb-3">            <div class="input-group-prepend">              <span class="input-group-text">Sistema de iniciacion </span>            </div>            <select              name="sistemaIniciacion"              [(ngModel)]="searchCriteria.sistemaIniciacion"              class="custom-select col"            >              <option                *ngFor="let iniciacion of sistemaIniciacion"                [value]="iniciacion.key"              >                {{ iniciacion.value }}              </option>              <option value="">-- Descartar Parametro --</option>            </select>          </div>        </div>      </div>      <hr />      <!-- Boton de buscar  -->      <div class="d-flex justify-content-center" style="position:static;">        <input          value="BUSCAR"          type="submit"          (click)="buscar()"          class="btn btn-success"        />      </div>    </div>  </div>  <app-listadofichas *ngIf="mostrarResultado"></app-listadofichas></div></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ArchivoComponent', 'selector': 'app-archivo'},{'name': 'ArchivosComponent', 'selector': 'app-archivos'},{'name': 'ArtefactoinventarioComponent', 'selector': 'app-artefactoinventario'},{'name': 'ArtefactosinventarioComponent', 'selector': 'app-artefactosinventario'},{'name': 'BuscadorComponent', 'selector': 'app-buscador'},{'name': 'ContactoComponent', 'selector': 'app-contacto'},{'name': 'CuerpoComponent', 'selector': 'app-cuerpo'},{'name': 'DocumentoComponent', 'selector': 'app-documento'},{'name': 'DocumentosComponent', 'selector': 'app-documentos'},{'name': 'ElementoFormularioComponent', 'selector': 'app-elemento-formulario'},{'name': 'EncabezadoComponent', 'selector': 'app-encabezado'},{'name': 'EsqueletoComponent', 'selector': 'app-esqueleto'},{'name': 'FichaCardComponent', 'selector': 'app-ficha-card'},{'name': 'FichaCompletaComponent', 'selector': 'app-ficha-completa'},{'name': 'FichasvipComponent', 'selector': 'app-fichasvip'},{'name': 'FichavipComponent', 'selector': 'app-fichavip'},{'name': 'FormularioDinamicoComponent', 'selector': 'app-formulario-dinamico'},{'name': 'FormularioFichaComponent', 'selector': 'app-formulario-ficha'},{'name': 'FotografiaComponent', 'selector': 'app-fotografia'},{'name': 'FotografiasComponent', 'selector': 'app-fotografias'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'InfoComponent', 'selector': 'app-info'},{'name': 'ListadofichasComponent', 'selector': 'app-listadofichas'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'ModalFichaVipComponent', 'selector': 'app-modal-ficha-vip'},{'name': 'NavbarSeguroComponent', 'selector': 'app-navbar-seguro'},{'name': 'NoEncontradoComponent', 'selector': 'app-no-encontrado'},{'name': 'PieComponent', 'selector': 'app-pie'},{'name': 'UsuarioComponent', 'selector': 'app-usuario'},{'name': 'UsuariosComponent', 'selector': 'app-usuarios'},{'name': 'ValidadorComponent', 'selector': 'app-validador'},{'name': 'ValidaFichaComponent', 'selector': 'app-valida-ficha'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'BuscadorComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'BuscadorComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
